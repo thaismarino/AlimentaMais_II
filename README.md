@@ -60,4 +60,40 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 ### Diagrama de Classes 
 ![diagrama_de_classes](https://github.com/user-attachments/assets/080fe26e-7ee6-444c-81e2-770a2be56a95)
 
+### Tela Inicial 
+![prototipo_tela_inicial](https://github.com/user-attachments/assets/1080433d-037e-44d2-aa83-6a74ff6a3a06)
+
+### Tela com informações do projeto e acessos a Cadastro de Alimentos, Pedidos e Locais Coleta
+![prototipo_home](https://github.com/user-attachments/assets/5b523609-10bc-4209-93ba-1a4d2582f6e0)
+
+### Tela Cadastro de Usuários - Doador 
+![prototipo_cadastro_doador](https://github.com/user-attachments/assets/a766a397-d700-4df8-b838-f9d7e4df619f)
+
+### Tela Cadastro de Usuários - Entidade Recebedora 
+![prototipo_cadastro_entidade_recebedora](https://github.com/user-attachments/assets/0ca10817-97a8-42bd-9c3d-7fa5997c80fc)
+
+### Tela Cadastro de Alimentos 
+![prototipo_cadastro_de_alimentos](https://github.com/user-attachments/assets/3952a6fc-9c7b-4f1f-9df8-7a26e9a63b32)
+
+### Tela Pedidos 
+![prototipo_pedidos](https://github.com/user-attachments/assets/a6a25273-973d-48e9-adfb-d8863ce96fbd)
+
+### Tela Local Coleta 
+![prototipo_local_coleta](https://github.com/user-attachments/assets/0ae823db-89e3-4f5f-a7c7-ca98d0155458)
+
+### Tela Administrador 
+![prototipo_administrador](https://github.com/user-attachments/assets/73eec2b1-d1f2-4540-a35e-44dc7a5d3c05)
+
+### Tela Status Pedido 
+![prototipo_status_pedido](https://github.com/user-attachments/assets/dda4d865-522d-4993-84fe-6a23083d7c27)
+
+
+
+
+
+
+
+
+
+
 
