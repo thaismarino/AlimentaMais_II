@@ -47,6 +47,7 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 ### Requisitos 
 - **Pré-condições**: O usuário precisa ter um cadastro válido e estar logado no sistema para acessar as funcionalidades, como cadastrar alimentos, solicitar doações ou gerenciar pedidos.
 
-
+### Tecnologias Utilizadas
+- [Protótipo] (https://www.canva.com/design/DAGgx1i2Ywk/8YL1m53BjQQuqY0PdTpTGg/view?mode=prototype)
 
   
