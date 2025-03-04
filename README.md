@@ -53,3 +53,7 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 - [Diagrama de Classes](https://lucid.app/lucidspark/fdcbeb48-64bf-4560-a2af-3f4907ab69a1/edit?viewport_loc=-2655%2C-1131%2C3357%2C1639%2C0_0&invitationId=inv_baead89a-f682-4b8c-b7e8-4ec7830a2b73)   
 - [Dbeaver (Postgres)](https://dbeaver.io)
 - [GitHub](https://github.com/thaismarino)
+
+### Diagrama de casos de uso
+![diagrama_de_caso_de_uso](https://github.com/user-attachments/assets/b23d06b8-c76b-4267-8f43-5210fb861a5d)
+
