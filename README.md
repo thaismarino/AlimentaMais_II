@@ -1,45 +1,52 @@
 # Alimenta+
 
-**Alimenta+** é uma plataforma que visa facilitar a conexão entre pessoas físicas, organizações não-governamentais (ONGs) e outras entidades com o objetivo de combater a fome e promover a solidariedade. Nosso objetivo é ser um intermediário confiável entre **doadores** e **entidades recebedoras**, facilitando a doação de alimentos para aqueles que mais precisam.
+## Projeto Integrador: Implantação de Banco de Dados 
 
-## Objetivo
+O objetivo do projeto Alimenta+ é atuar como intermediário entre doadores e entidades recebedoras, com foco nas regiões Norte e Nordeste do Brasil, facilitando a doação de alimentos.
 
-O **Alimenta+** foi criado para proporcionar um meio simples e eficiente para que pessoas e organizações possam se cadastrar para **doar alimentos** ou **receber doações**. O projeto busca garantir que alimentos não utilizados sejam direcionados a quem mais necessita, minimizando desperdícios e ajudando a alimentar pessoas em situação de vulnerabilidade social.
+### Integrantes do Grupo
+- [Bruno Costa Caiado]
+- [Felipe Augusto Santinho]
+- [Isabel Helana Hartmann]
+- [Paula Barros Ortiz]
+- [Thais Oliveira dos Santos]
 
-## Como Funciona
+### Orientador 
+- Alexandre Lopes Machado 
 
-1. **Cadastro de Doadores**: Pessoas físicas ou empresas podem se cadastrar na plataforma para **doar alimentos**. O processo de doação é simples e direto, permitindo que doadores indiquem os alimentos disponíveis e escolham o local de entrega.
-   
-2. **Cadastro de Entidades Recebedoras**: Organizações como ONGs, abrigos, instituições de caridade e outras entidades podem se registrar para **receber alimentos**. Essas entidades terão acesso aos alimentos disponibilizados pelos doadores e poderão organizá-los para distribuição.
+## Descrição do Projeto 
 
-3. **Conexão e Logística**: A plataforma conecta doadores e entidades recebedoras, oferecendo informações sobre localizações e preferências de entrega, para que o processo de doação seja eficiente e seguro.
+O sistema Alimenta+ foi desenvolvido para facilitar a conexão entre doadores e entidades recebedoras, com foco no gerenciamento de:
+- **Cadastro de Usuários**: Deve permitir o cadastro de diferentes tipos de usuários (doador, ONG, voluntário, restaurante), com verificação de dados antes da ativação da conta, garantindo a confiabilidade das informações.
+- **Cadastro de Alimentos**: O sistema permitirá que os doadores registrem alimentos com detalhes como tipo, quantidade, validade e categoria. O sistema deve garantir que apenas alimentos dentro do prazo de validade sejam registrados.
+- **Gestão de Pedidos de Doação**: As ONGs poderão solicitar alimentos disponíveis, com possibilidade de aprovação ou rejeição dos pedidos por parte dos doadores. O status do pedido deve ser acompanhado em tempo real.
+- **Gestão de Doações**: O doador pode registrar as ofertas de alimentos, que serão gerenciadas até a coleta e entrega. A plataforma deve integrar mapas para facilitar a logística de coleta e entrega.
 
-4. **Segurança e Transparência**: Todos os processos são realizados com o máximo de segurança, garantindo que as doações cheguem às pessoas certas. A plataforma também proporciona transparência, para que tanto doadores quanto entidades possam acompanhar o processo.
+### Funcionalidades Principais 
+1. **Efetuar Login**: Validação do usuário e controle de acesso, garantindo segurança e privacidade.
+2. **Cadastro de Usuários**: Registro de novos usuários (doadores, ONGs, voluntários e restaurantes), com validação de dados para garantir a confiabilidade das informações.
+3. **Cadastro de Alimentos**: Registro de alimentos doados, com detalhes como tipo, quantidade, validade e categoria, além de alertas para alimentos próximos do vencimento.
+4. **Gestão de Pedidos de Doação**: Solicitação de alimentos por ONGs, com aprovação ou rejeição dos doadores e acompanhamento do status em tempo real.
+5. **Gestão de Doações**: Registro e acompanhamento das doações, desde a oferta até a coleta e entrega, com integração de mapas para facilitar a logística.
 
-## Como Contribuir
+### Diagramas
+- **Diagrama de Casos de Uso**:
+Mostra as interações entre os diferentes atores do sistema (doadores, ONGs, voluntários, restaurantes e administradores) e as funcionalidades oferecidas pelo Alimenta+.
+**Por exemplo**:
+- Doadores podem **cadastrar alimentos** e **gerenciar doações**.
+- ONGs podem **solicitar alimentos** e **acompanhar pedidos**.
+- Administradores podem **gerenciar usuários** e **validar informações**.
 
-### Se você deseja **doar alimentos**:
-- Faça o cadastro como doador e indique os alimentos disponíveis.
-- Defina o local de entrega e escolha a entidade recebedora ou permita que a plataforma sugira a melhor opção.
+- **Diagrama de Classes**:
+Representa a arquitetura do sistema, destacando as principais entidades (como **Usuário**, **Alimento**, **Pedido**, **Local de Coleta** e **Categoria de Alimento**), seus atributos e os relacionamentos entre elas.
+**Por exemplo**:
+- A classe **Usuário** tem atributos como ID, Nome, Email, Telefone e Tipo.
+- A classe **Alimento** tem atributos como ID, Nome, Quantidade, Validade e está relacionada com a classe Categoria de Alimento.
+- A classe **Pedido** está relacionada com **Usuário** (ONG) e **Alimento**, com atributos como ID_Pedido, Data_Pedido e Status.
 
-### Se você é uma **entidade recebedora**:
-- Cadastre sua organização na plataforma e informe a sua necessidade de alimentos.
-- Conecte-se com os doadores e organize a retirada ou entrega dos itens.
+### Requisitos 
+- **Pré-condições**: O usuário precisa ter um cadastro válido e estar logado no sistema para acessar as funcionalidades, como cadastrar alimentos, solicitar doações ou gerenciar pedidos.
 
-### Contribuições:
-Este projeto é de código aberto e estamos sempre buscando colaboradores para melhorar a plataforma. Se você tem interesse em ajudar no desenvolvimento ou tem sugestões para novas funcionalidades, fique à vontade para fazer um **fork** do repositório e enviar **pull requests**!
 
-## Tecnologias Usadas
 
-- **Frontend**: [React.js](https://reactjs.org/)
-- **Backend**: [Node.js](https://nodejs.org/)
-- **Banco de Dados**: [MongoDB](https://www.mongodb.com/)
-- **Autenticação**: [JWT](https://jwt.io/)
-
-## Licença
-
-Este projeto está sob a [Licença MIT](LICENSE), permitindo que você use, modifique e distribua o código.
-
----
-
-Seja você um **doador** ou uma **entidade recebedora**, sua colaboração é fundamental para alimentar mais vidas e construir uma sociedade mais solidária. **Junte-se ao Alimenta+ e faça a diferença!**
+  
