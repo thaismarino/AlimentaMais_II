@@ -49,5 +49,5 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 
 ### Tecnologias Utilizadas
 - [Protótipo] (https://www.canva.com/design/DAGgx1i2Ywk/8YL1m53BjQQuqY0PdTpTGg/view?mode=prototype)
-
+- [Diagrama]  (https://lucid.app/lucidspark/fdcbeb48-64bf-4560-a2af-3f4907ab69a1/edit?viewport_loc=-2461%2C-1036%2C3317%2C1614%2C0_0&invitationId=inv_baead89a-f682-4b8c-b7e8-4ec7830a2b73)
   
