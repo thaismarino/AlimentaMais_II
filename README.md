@@ -57,3 +57,7 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 ### Diagrama de casos de uso
 ![diagrama_de_caso_de_uso](https://github.com/user-attachments/assets/b23d06b8-c76b-4267-8f43-5210fb861a5d)
 
+### Diagrama de Classes 
+![diagrama_de_classes](https://github.com/user-attachments/assets/080fe26e-7ee6-444c-81e2-770a2be56a95)
+
+
