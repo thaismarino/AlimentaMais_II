@@ -49,7 +49,7 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 
 ### Tecnologias Utilizadas
 - [Protótipo](https://www.canva.com/design/DAGgx1i2Ywk/8YL1m53BjQQuqY0PdTpTGg/view?mode=prototype)
-- [Diagrama de Caso de Uso](https://lucid.app/lucidchart/1848c39f-9c73-4047-a9ea-ab4c1527e494/edit?viewport_loc=-213%2C172%2C2116%2C1012%2C.Q4MUjXso07N&invitationId=inv_465a0130-0eba-4967-a39d-13602bdc90be)- 
+- [Diagrama de Caso de Uso](https://lucid.app/lucidchart/1848c39f-9c73-4047-a9ea-ab4c1527e494/edit?viewport_loc=-213%2C172%2C2116%2C1012%2C.Q4MUjXso07N&invitationId=inv_465a0130-0eba-4967-a39d-13602bdc90be)
 - [Diagrama de Classes](https://lucid.app/lucidspark/fdcbeb48-64bf-4560-a2af-3f4907ab69a1/edit?viewport_loc=-2655%2C-1131%2C3357%2C1639%2C0_0&invitationId=inv_baead89a-f682-4b8c-b7e8-4ec7830a2b73)   
 - [Dbeaver (Postgres)](https://dbeaver.io)
-- [GitHub] 
+- [GitHub](https://github.com/thaismarino)
