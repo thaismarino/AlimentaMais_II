@@ -30,14 +30,14 @@ O sistema Alimenta+ foi desenvolvido para facilitar a conexão entre doadores e 
 5. **Gestão de Doações**: Registro e acompanhamento das doações, desde a oferta até a coleta e entrega, com integração de mapas para facilitar a logística.
 
 ### Diagramas
-- **Diagrama de Casos de Uso**:
+**Diagrama de Casos de Uso**:
 Mostra as interações entre os diferentes atores do sistema (doadores, ONGs, voluntários, restaurantes e administradores) e as funcionalidades oferecidas pelo Alimenta+.
 **Por exemplo**:
 - Doadores podem **cadastrar alimentos** e **gerenciar doações**.
 - ONGs podem **solicitar alimentos** e **acompanhar pedidos**.
 - Administradores podem **gerenciar usuários** e **validar informações**.
 
-- **Diagrama de Classes**:
+**Diagrama de Classes**:
 Representa a arquitetura do sistema, destacando as principais entidades (como **Usuário**, **Alimento**, **Pedido**, **Local de Coleta** e **Categoria de Alimento**), seus atributos e os relacionamentos entre elas.
 **Por exemplo**:
 - A classe **Usuário** tem atributos como ID, Nome, Email, Telefone e Tipo.
