@@ -81,9 +81,6 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 ### Tela Local Coleta 
 ![prototipo_local_coleta](https://github.com/user-attachments/assets/0ae823db-89e3-4f5f-a7c7-ca98d0155458)
 
-### Tela Administrador 
-![prototipo_administrador](https://github.com/user-attachments/assets/73eec2b1-d1f2-4540-a35e-44dc7a5d3c05)
-
 ### Tela Status Pedido 
 ![prototipo_status_pedido](https://github.com/user-attachments/assets/dda4d865-522d-4993-84fe-6a23083d7c27)
 
