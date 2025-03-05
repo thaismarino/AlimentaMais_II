@@ -60,17 +60,20 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 ### Diagrama de Classes 
 ![diagrama_de_classes](https://github.com/user-attachments/assets/080fe26e-7ee6-444c-81e2-770a2be56a95)
 
-### Tela Inicial 
-![prototipo_tela_inicial](https://github.com/user-attachments/assets/1080433d-037e-44d2-aa83-6a74ff6a3a06)
+### Tela Inicial - Criar nova conta redireciona para a tela de cadastro, com opções de doador ou entidade recebedora, enquanto o Login leva à tela de login para acesso à conta.
+![tela_inicial](https://github.com/user-attachments/assets/a0074c04-976f-470a-b81d-14e92dbcd793)
 
-### Tela com informações do projeto e acessos a Cadastro de Alimentos, Pedidos e Locais Coleta
-![prototipo_home](https://github.com/user-attachments/assets/5b523609-10bc-4209-93ba-1a4d2582f6e0)
+### Tela Login 
+![tela_login](https://github.com/user-attachments/assets/8c544f49-bd44-4453-8347-689f68dd07f0)
 
-### Tela Cadastro de Usuários - Doador 
-![prototipo_cadastro_doador](https://github.com/user-attachments/assets/a766a397-d700-4df8-b838-f9d7e4df619f)
+### Tela Cadastro de Usuários - Na tela de cadastro, ao escolher a opção doador, serão exibidos os campos específicos para preenchimento. Após validar os dados e confirmar a conta por e-mail, o usuário poderá finalizar o cadastro.
+![tela_cadastro_doador](https://github.com/user-attachments/assets/06987b76-c8d6-4049-aaa0-c9766762f0f1)
 
-### Tela Cadastro de Usuários - Entidade Recebedora 
-![prototipo_cadastro_entidade_recebedora](https://github.com/user-attachments/assets/0ca10817-97a8-42bd-9c3d-7fa5997c80fc)
+### Tela Cadastro de Usuários - Na tela de cadastro, ao escolher a opção entidade recebedora, serão exibidos os campos específicos para preenchimento. Após validar os dados e confirmar a conta por e-mail, a entidade poderá finalizar o cadastro. 
+![tela_cadastro_entidade_recebedora](https://github.com/user-attachments/assets/9ef66e71-a710-478d-a079-5674060468c2)
+
+### Tela Página Inicial 
+![tela_página_inicial](https://github.com/user-attachments/assets/2d0f7b84-77a2-463c-b8e2-700a2cfe8e93)
 
 ### Tela Cadastro de Alimentos 
 ![prototipo_cadastro_de_alimentos](https://github.com/user-attachments/assets/3952a6fc-9c7b-4f1f-9df8-7a26e9a63b32)
