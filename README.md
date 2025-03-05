@@ -29,7 +29,7 @@ O sistema Alimenta+ foi desenvolvido para facilitar a conexão entre doadores e 
 4. **Gestão de Pedidos de Doação**: Solicitação de alimentos por ONGs, com aprovação ou rejeição dos doadores e acompanhamento do status em tempo real.
 5. **Gestão de Doações**: Registro e acompanhamento das doações, desde a oferta até a coleta e entrega, com integração de mapas para facilitar a logística.
 
-**Diagrama de Classes**:
+**Diagrama Entidade-Relacionamento (DER)**:
 Representa a arquitetura do sistema, destacando as principais entidades (como **Usuário**, **Alimento**, **Pedido**, **Local de Coleta** e **Categoria de Alimento**), seus atributos e os relacionamentos entre elas.
 **Por exemplo**:
 - A classe **Usuário** tem atributos como ID, Nome, Email, Telefone e Tipo.
@@ -44,8 +44,9 @@ Representa a arquitetura do sistema, destacando as principais entidades (como **
 - [Dbeaver (Postgres)](https://dbeaver.io)
 - [GitHub](https://github.com/thaismarino)
 
-### Diagrama de Classes 
-![diagrama_de_classes](https://github.com/user-attachments/assets/080fe26e-7ee6-444c-81e2-770a2be56a95)
+### Diagrama Entidade-Relacionamento (DER) 
+![DER_ATUALIZADO](https://github.com/user-attachments/assets/e8325ee9-12ec-486c-9f4e-33e394822f07)
+
 
 
 
