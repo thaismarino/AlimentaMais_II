@@ -5,11 +5,11 @@
 O objetivo do projeto Alimenta+ é atuar como intermediário entre doadores e entidades recebedoras, com foco nas regiões Norte e Nordeste do Brasil, facilitando a doação de alimentos.
 
 ### Integrantes do Grupo
-- [Bruno Costa Caiado]
-- [Felipe Augusto Santinho]
+- [Bruno Costa Caiado](https://github.com/costacaiado)
+- [Felipe Augusto Santinho](https://github.com/felipe-santinho)
 - [Isabel Helana Hartmann](https://github.com/belhartmann)
-- [Paula Barros Ortiz]
-- [Thais Oliveira dos Santos]
+- [Paula Barros Ortiz](https://github.com/paulabortiz)
+- [Thais Oliveira dos Santos](https://github.com/thaismarino)
 
 ### Orientador 
 - Alexandre Lopes Machado 
