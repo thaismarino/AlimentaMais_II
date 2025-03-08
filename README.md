@@ -7,7 +7,7 @@ O objetivo do projeto Alimenta+ é atuar como intermediário entre doadores e en
 ### Integrantes do Grupo
 - [Bruno Costa Caiado]
 - [Felipe Augusto Santinho]
-- [Isabel Helana Hartmann](https://github.com/belhartmann/belhartmann)
+- [Isabel Helana Hartmann](https://github.com/belhartmann)
 - [Paula Barros Ortiz]
 - [Thais Oliveira dos Santos]
 
