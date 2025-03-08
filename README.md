@@ -29,7 +29,7 @@ O sistema Alimenta+ foi desenvolvido para facilitar a conexão entre doadores e 
 4. **Gestão de Pedidos de Doação**: Solicitação de alimentos por ONGs, com aprovação ou rejeição dos doadores e acompanhamento do status em tempo real.
 5. **Gestão de Doações**: Registro e acompanhamento das doações, desde a oferta até a coleta e entrega, com integração de mapas para facilitar a logística.
 
-### Diagrama Entidade-Relacionamento (DER):
+### Diagrama Entidade-Relacionamento (DER)
 Representa a arquitetura do sistema, destacando as principais entidades (como **Usuário**, **Alimento**, **Pedido**, **Local de Coleta** e **Categoria de Alimento**), seus atributos e os relacionamentos entre elas.
 **Por exemplo**:
 - A classe **Usuário** tem atributos como ID, Nome, Email, Telefone e Tipo.
