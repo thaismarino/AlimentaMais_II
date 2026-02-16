@@ -1,0 +1,57 @@
+import pandas as pd
+import numpy as np
+
+# Configuração da origem dos dados (Caminho do arquivo baixado do INEP)
+# Nota: O arquivo deve ser descompactado previamente
+caminho_arquivo_bruto = 'microdados_ed_basica_2024.csv'
+
+# Definição das colunas de interesse conforme o Projeto Integrador (Tabela 1 e Seção 2.2)
+colunas_interesse = [
+    # Localização
+    'NO_REGIAO', 'SG_UF', 'NO_MUNICIPIO', 'TP_LOCALIZACAO',
+    
+    # Administrativo
+    'TP_DEPENDENCIA', 'CO_ENTIDADE',
+    
+    # Infraestrutura Básica
+    'IN_AGUA_REDE_PUBLICA', 'IN_ESGOTO_REDE_PUBLICA', 
+    'IN_ENERGIA_REDE_PUBLICA', 'IN_COLETA_LIXO',
+    
+    # Infraestrutura Pedagógica e Tecnológica
+    'IN_INTERNET', 'IN_BANDA_LARGA', 
+    'IN_LABORATORIO_INFORMATICA', 'IN_BIBLIOTECA', 
+    'IN_QUADRA_ESPORTES',
+    
+    # Salas de Aula (para indicadores de densidade)
+    'QT_SALAS_UTILIZADAS'
+]
+
+def extrair_dados_escolas():
+    print("Iniciando extração dos dados do Censo Escolar 2024...")
+    
+    try:
+        # Leitura do CSV com parâmetros típicos do INEP (separador ; e encoding latin1 ou iso-8859-1)
+        df = pd.read_csv(
+            caminho_arquivo_bruto,
+            sep=';',
+            encoding='latin-1',
+            usecols=colunas_interesse, # Carrega apenas as colunas necessárias (Otimização)
+            low_memory=False
+        )
+        
+        print(f"Extração concluída. Total de escolas carregadas: {len(df)}")
+        
+        # Visualizar as primeiras linhas para conferência
+        print(df.head())
+        
+        # Exportar arquivo bruto extraído (apenas colunas úteis) para pasta de processamento
+        df.to_csv('dados_extraidos_escolas_2024.csv', index=False, sep=';', encoding='utf-8')
+        print("Arquivo intermediário salvo com sucesso.")
+        
+    except FileNotFoundError:
+        print(f"Erro: O arquivo {caminho_arquivo_bruto} não foi encontrado.")
+    except Exception as e:
+        print(f"Ocorreu um erro durante a extração: {e}")
+
+if __name__ == "__main__":
+    extrair_dados_escolas()
